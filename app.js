@@ -19,8 +19,8 @@ app.use(logger('dev'))
 
 /* Routes */
 
-// const routes = require('./config/routes')
-// app.use('/api', routes)
+const routes = require('./config/routes')
+app.use('/api', routes)
 
 /* Handle errors */
 
